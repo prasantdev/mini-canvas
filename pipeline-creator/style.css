@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  border: 2px solid black;
+  -ms-touch-action: none;
+  -webkit-touch-action:none;
+  touch-action: none;
+  pointer-events: none;
+}
+.left-div{
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  z-index: 10;
+}
+.inputs{
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 3px;
+  border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canvas</title>
+  <link rel="icon" href="./sparks.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="left-div">
+    <select name="type" id="type">
+      <option value="stripped">Stripped</option>
+      <option value="rainbow">Rainbow</option>
+    </select>
+    <button id='download'>Download image</button>
+    <button id='restart'>Restart Drawing</button>
+
+  </div>
+
+  <div class="inputs">
+    <label for="dx">dx</label>
+    <input type="range" name="dx" id="dx" min="1" max="100" value="1" step="1"> <br>
+    <label for="dy">dy</label>
+    <input type="range" name="dy" id="dy" min="1" max="100" value="1" step="1">
+  </div>
+  <canvas id="canvas">
+    Canvas not supported in your browser...
+  </canvas>
+  <script src="main.js"></script>
+</body>
+</html>
